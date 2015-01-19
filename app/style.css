@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "helvetica";
+}
+.clearfix:after, .clearfix:before {
+	clear: both;
+	display: table;
+	content: "";
+}
+.wrapper {
+	background: #f2f3f4;
+}
+.inner-wrap {
+	padding: 50px 0px;
+	width: 80%;
+	margin: 0 auto;
+}
+.search-player {
+	width: 68%;
+	float: left;
+	text-align: center;
+}
+.header {
+	margin-bottom: 15px;
+}
+.header input {
+	padding: 6px 10px;
+	width: 50%;
+	font-size: 15px;
+}
+.header input:focus {
+	outline: none !important;
+}
+.suggested-video {
+	width: 28%;
+	float: right;
+	background: #fff;
+	margin-top: 47px; 
+	padding: 10px;
+}
+.ui-autocomplete {
+	background: #fff;
+	width: 27%;
+}
+.ui-autocomplete li {
+	list-style: none;
+	padding: 1px 10px 2px;
+}
+.ui-menu .ui-menu-item:hover {
+    background: #d9d9d9;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: #d9d9d9;
+}
+#video-title {
+	text-align: left;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
